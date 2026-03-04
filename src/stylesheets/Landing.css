@@ -1,0 +1,7 @@
+article.landing {
+  background-color: var(--color-off-white);
+  color: var(--color-blue-purple);
+  height: 90vh;
+
+  display: flex;
+}

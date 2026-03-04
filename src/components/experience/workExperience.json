@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Software Engineer",
+    "organization": "Deltek - Replicon",
+    "date": "Jun. 2022 - Jan. 2026",
+    "bullets": [
+      "Enhanced development efficiency integrating AI-assisted tools into daily workflows, improving debugging speed, code quality, and implementation timelines.",
+      "Refactored codebase to resolve widespread GraphQL caching inconsistencies, implemented comprehensive unit and manual tests, and improved maintainability, eliminating multiple user-facing bugs and troubleshooting time.",
+      "Optimized WCAG compliance and usability by auditing features, employing semantic HTML, ARIA labels, and keyboard navigation, and integrating accessibility checks into development.",
+      "Earned positive peer recognition through inclusive social events across teams and improved company culture in a remote-first environment."
+    ]
+  },
+  {
+    "title": "Software Development Assistant",
+    "organization": "University of Calgary, Auroral Imaging Group",
+    "date": "Sep. 2020 - Dec. 2021",
+    "bullets": [
+      "Modernized aurorax.space by migrating from Python to React with Bootstrap, building interactive data visualizations and full-feature front-end functionality with RESTful API for enhanced performance, usability, and scalability.",
+      "Designed and developed comprehensive UI mock-up and wireframe for 3D auroral borealis image navigation system, allowing filtering by time, location, and auroral type.",
+      "Collaborated with researchers to ensure scientific accuracy and usability; mock-up approved for implementation prior to project pivot."
+    ]
+  },
+  {
+    "title": "Software Engineering Intern",
+    "organization": "Arterys Inc.",
+    "date": "May 2019 - Aug. 2019",
+    "bullets": [
+      "Conducted verification and validations tests, and peer reviews to ensure the quality of the product satisfies medical regulations.",
+      "Improved user experience by performing heuristic evaluations, identifying UI/UX issues, and implementing front-end solutions using Vue."
+    ]
+  }
+]

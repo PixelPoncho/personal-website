@@ -1,0 +1,115 @@
+/* Styles for Portfolio component (plain CSS, reusable via CSS variables) */
+.portfolio {
+  padding: 28px 20px;
+}
+
+.portfolio__inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.portfolio__left {
+  width: var(--left-w, 420px);
+  height: var(--left-h, 220px);
+  background: var(--left-bg, #13c4b1);
+  border-radius: 20px;
+  box-shadow: 0 18px 30px rgba(6,8,17,0.45);
+  flex: 0 0 auto;
+}
+
+.portfolio__right {
+  width: 520px;
+  height: 160px;
+  background: var(--right-bg, #fff9ed);
+  border-radius: 26px;
+  margin-left: -120px;
+  box-shadow: 0 20px 40px rgba(10,12,25,0.45);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 28px 36px;
+  position: relative;
+}
+
+.portfolio__content {
+  max-width: 360px;
+}
+
+.portfolio__title {
+  margin: 0 0 6px 0;
+  font-size: 28px;
+  color: #2b2b3a;
+  font-weight: 700;
+}
+
+.portfolio__subtitle {
+  margin: 0 0 14px 0;
+  font-size: 13px;
+  color: #6b6b76;
+}
+
+.portfolio__tech {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.portfolio__tech-item {
+  font-size: 13px;
+  color: #17b59e;
+}
+
+.portfolio__tech-item a {
+  color: #17b59e;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.portfolio__tech-sep {
+  color: rgba(0,0,0,0.12);
+}
+
+.portfolio__icons {
+  display: flex;
+  gap: 12px;
+  align-items: flex-end;
+}
+
+.portfolio__icon-btn {
+  width: 44px;
+  height: 44px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.portfolio__icon-btn svg {
+  display: block;
+}
+
+@media (max-width: 860px) {
+  .portfolio__inner {
+    flex-direction: column;
+    gap: 18px;
+  }
+
+  .portfolio__right {
+    margin-left: 0;
+    width: 92%;
+  }
+
+  .portfolio__left {
+    width: 90%;
+    height: 160px;
+  }
+}
