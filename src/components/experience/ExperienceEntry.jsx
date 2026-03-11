@@ -1,14 +1,14 @@
-import "./Experience.css";
+// styles moved to src/styles/components.css
 
 const ExperienceEntry = ({
-  className,
+  className = "",
   title,
   organization,
   date,
   bullets = [],
 }) => {
   return (
-    <div className={`${className} container`}>
+    <div className={`${className} experience-container`}>
       <div className="entry-header">
         <h3 className="job-title poppins-semibold">{title}</h3>
         <h3 className="date poppins-extralight">{date}</h3>

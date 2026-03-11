@@ -1,28 +1,17 @@
-// Stylesheets
-import "../../stylesheets/navbar/Navbar.css";
-
 const Navbar = () => {
-  // const [openNav, setOpenNav] = useState(false);
-
-  // const toggleNav = () => {
-  //   setOpenNav(!openNav);
-  // };
-
-  // const navList = () => <></>;
-
   return (
     <header>
       <nav>
-        <a class="nav-link" href="#About Me">
+        <a className="nav-link" href="#About Me">
           About
         </a>
-        <a class="nav-link" href="#Experience">
+        <a className="nav-link" href="#Experience">
           Experience
         </a>
-        <a class="nav-link" href="#Portfolio">
+        <a className="nav-link" href="#Portfolio">
           Portfolio
         </a>
-        <a class="nav-link" href="#">
+        <a className="nav-link" href="#Contact">
           Contact
         </a>
       </nav>

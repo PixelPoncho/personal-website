@@ -10,11 +10,11 @@ const Experience = () => {
     <>
       {/* Work Experience */}
       {workExperience.map((experience, index) => (
-        <ExperienceEntry key={index} {...experience} />
+        <ExperienceEntry key={index} className={"work"} {...experience} />
       ))}
 
       {/* Volunteer Experience */}
-      <div className="card">
+      <div className="card volunteer-card">
         <h2 className="volunteer-header poppins-semibold">
           Volunteer Experience
         </h2>

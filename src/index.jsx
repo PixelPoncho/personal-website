@@ -5,8 +5,9 @@ import { createRoot } from "react-dom/client";
 // Project-defined components
 import LandingPage from "./components/LandingPage";
 
-// Stylesheets
-import "./index.css";
+// Stylesheets (consolidated)
+import "./styles/theme.css";
+import "./styles/components.css";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>

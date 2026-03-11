@@ -1,17 +1,22 @@
-// Stylesheets
-import "../../stylesheets/about/About.css";
+// styles moved to src/styles/components.css
 
 const About = () => {
   return (
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-      velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-      cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-      est laborum.
-    </p>
+    <>
+      <p className="about-text">
+        I'm a full-stack software engineer with hands-on experience building and
+        maintaining scalable web applications. I have a strong focus on
+        front-end development, creating interactive UI components responsive
+        designs, and data-driven visualizations.
+      </p>
+      <p className="about-text">
+        I'm comfortable working RESTful API and writing clean, maintainable
+        code. I've worked across the full development lifecycle, including
+        gathering requirements and designing features to building, testing, and
+        deploying in Agile environments. I enjoy collaborating with teams and
+        turning complex technical ideas into simple, user-friendly solutions.
+      </p>
+    </>
   );
 };
 

@@ -1,32 +1,25 @@
 [
   {
-    "title": "Software Engineer",
-    "organization": "Deltek - Replicon",
-    "date": "Jun. 2022 - Jan. 2026",
+    "title": "Various Commissioner Positions and VP Finance",
+    "organization": "Electrical and Software Engineering Students' Society (ZOO)",
+    "date": "Sep. 2017 - Dec. 2025",
+    "bullets": ["Artistic Comm", "Webmaster"]
+  },
+  {
+    "title": "2023 Canadian Engineering Leadership Conference Communication Team",
+    "organization": "Canadian Federation of Engineering Students",
+    "date": "May 2021 - Jan. 2023",
     "bullets": [
-      "Enhanced development efficiency integrating AI-assisted tools into daily workflows, improving debugging speed, code quality, and implementation timelines.",
-      "Refactored codebase to resolve widespread GraphQL caching inconsistencies, implemented comprehensive unit and manual tests, and improved maintainability, eliminating multiple user-facing bugs and troubleshooting time.",
-      "Optimized WCAG compliance and usability by auditing features, employing semantic HTML, ARIA labels, and keyboard navigation, and integrating accessibility checks into development.",
-      "Earned positive peer recognition through inclusive social events across teams and improved company culture in a remote-first environment."
+      "Lead the development and execution of the Conference's visual brand identity, ensuring consistency across all platforms and materials.",
+      "Collaborate with Conference Co-Chairs and the Canadian Federation of Engineering Students (CFES) to obtain approval for branding assets and ensure alignment with national standards.",
+      "Design and refine key materials including the conference logo, sponsorship package, pre-delegate and delegate packages, website visuals, and promotional collateral.",
+      "Served as an official event photographer, capturing high-quality content for marketing, social media, and post-conference communications."
     ]
   },
   {
-    "title": "Software Development Assistant",
-    "organization": "University of Calgary, Auroral Imaging Group",
-    "date": "Sep. 2020 - Dec. 2021",
-    "bullets": [
-      "Modernized aurorax.space by migrating from Python to React with Bootstrap, building interactive data visualizations and full-feature front-end functionality with RESTful API for enhanced performance, usability, and scalability.",
-      "Designed and developed comprehensive UI mock-up and wireframe for 3D auroral borealis image navigation system, allowing filtering by time, location, and auroral type.",
-      "Collaborated with researchers to ensure scientific accuracy and usability; mock-up approved for implementation prior to project pivot."
-    ]
-  },
-  {
-    "title": "Software Engineering Intern",
-    "organization": "Arterys Inc.",
-    "date": "May 2019 - Aug. 2019",
-    "bullets": [
-      "Conducted verification and validations tests, and peer reviews to ensure the quality of the product satisfies medical regulations.",
-      "Improved user experience by performing heuristic evaluations, identifying UI/UX issues, and implementing front-end solutions using Vue."
-    ]
+    "title": "Volunteer",
+    "organization": "Calgary Comic and Entertainment Expo",
+    "date": "Apr. 2017 - Present",
+    "bullets": ["Crew Support Team.", "Media Guest Services Team."]
   }
 ]

@@ -1,5 +1,7 @@
+/* Global variables, typography and base styles (migrated from src/index.css) */
 :root {
   /* Custom defined colours */
+  --color-dark-purple: #323549;
   --color-blue-purple: #3d405b;
   --color-blue-purple-hover: #363952;
   --color-off-white: #fbf8e6;
@@ -13,7 +15,6 @@
 
   font-family: "Didact Gothic", sans-serif;
   line-height: 1.5;
-  /* font-weight: 400; */
 
   width: 100%;
   min-height: 100vh;
@@ -22,14 +23,19 @@
   color: var(--color-off-white);
   background-color: var(--color-blue-purple);
 
-  font-synthesis: none;
+  /* font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  -moz-osx-font-smoothing: grayscale; */
 }
 
 body {
   margin: 0;
+}
+
+div.site-body {
+  width: 70%;
+  margin: 0 auto;
 }
 
 .didact-gothic-regular {
@@ -146,15 +152,6 @@ body {
   font-style: italic;
 }
 
-a {
-  font-weight: 500;
-  color: var(--color-yellow);
-  text-decoration: inherit;
-}
-a:hover {
-  color: var(--color-yellow-hover);
-}
-
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
@@ -169,25 +166,24 @@ button {
   font-family: inherit;
   background-color: var(--color-pink);
   cursor: pointer;
-  /* transition: border-color 0.25s; */
 }
+
 button:hover {
   background-color: var(--color-pink-hover);
 }
-/* button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-} */
 
-/* @media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
-} */
+.card {
+  background-color: var(--color-off-white);
+  color: var(--color-blue-purple);
+
+  border-radius: 25px;
+  box-shadow: 0 24px 48px rgba(6, 8, 17, 0.45);
+
+  padding: 2em 4em;
+}
+
+.card h2 {
+  margin: 0 0 1rem;
+}
+
+/* end theme.css */
