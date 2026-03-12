@@ -11,8 +11,7 @@ const ScrollToTopButton = () => {
     if (y > 0) {
       setShouldRenderButton(true);
     } else {
-      const timer = setTimeout(() => setShouldRenderButton(false), 300);
-      return () => clearTimeout(timer);
+      setShouldRenderButton(false);
     }
   }, [y]);
 
