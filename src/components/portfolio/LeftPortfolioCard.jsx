@@ -1,29 +1,16 @@
 // Package Imports
 import { BsGithub, BsLink45Deg } from "react-icons/bs";
+import { FaFigma } from "react-icons/fa6";
 
 const LeftPortfolioCard = ({
   title,
   subtitle,
-  tech,
+  techItems,
   projectLink,
-  figmaLink,
   githubLink,
+  figmaLink,
+  image,
 }) => {
-  const techItems = [];
-  tech.forEach((t, i) => {
-    techItems.push(
-      <li key={`tech-${i}`} className="portfolio-entry-tech-item">
-        {typeof t === "string" ? <p>{t}</p> : t}
-      </li>,
-    );
-    if (i < tech.length - 1)
-      techItems.push(
-        <li key={`sep-${i}`} className="portfolio-entry-tech-item">
-          |
-        </li>,
-      );
-  });
-
   return (
     <div className="portfolio-entry-left-container">
       <div className="portfolio-entry-left">
@@ -37,7 +24,7 @@ const LeftPortfolioCard = ({
         <div className="portfolio-entry-icons">
           {projectLink && (
             <a
-              className="portfolio-entry-icons-btn"
+              className="portfolio-entry-icon"
               href={projectLink}
               aria-label="Open project"
               target="_blank"
@@ -49,7 +36,7 @@ const LeftPortfolioCard = ({
 
           {githubLink && (
             <a
-              className="portfolio-entry-icons-btn"
+              className="portfolio-entry-icon"
               href={githubLink}
               aria-label="View source on GitHub"
               target="_blank"
@@ -61,7 +48,7 @@ const LeftPortfolioCard = ({
 
           {figmaLink && (
             <a
-              className="portfolio-entry-icons-btn"
+              className="portfolio-entry-icon"
               href={figmaLink}
               aria-label="View Figma Mockup"
               target="_blank"
@@ -72,8 +59,10 @@ const LeftPortfolioCard = ({
           )}
         </div>
       </div>
-
-      <div className="portfolio-entry-right"></div>
+      <div
+        className="portfolio-entry-right"
+        style={{ backgroundImage: `url(${image})`, objectFit: "cover" }}
+      />
     </div>
   );
 };

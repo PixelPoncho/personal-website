@@ -5,29 +5,18 @@ import { FaFigma } from "react-icons/fa6";
 const RightPortfolioCard = ({
   title,
   subtitle,
-  tech,
+  techItems,
   projectLink,
   figmaLink,
   githubLink,
+  image,
 }) => {
-  const techItems = [];
-  tech.forEach((t, i) => {
-    techItems.push(
-      <li key={`tech-${i}`} className="portfolio-entry-tech-item">
-        {typeof t === "string" ? <p>{t}</p> : t}
-      </li>,
-    );
-    if (i < tech.length - 1)
-      techItems.push(
-        <li key={`sep-${i}`} className="portfolio-entry-tech-item">
-          |
-        </li>,
-      );
-  });
-
   return (
     <div className="portfolio-entry-right-container">
-      <div className="portfolio-entry-left"></div>
+      <div
+        className="portfolio-entry-left"
+        style={{ backgroundImage: `url(${image})`, objectFit: "cover" }}
+      />
 
       <div className="portfolio-entry-right">
         <div className="card portfolio-entry-card">
@@ -40,7 +29,7 @@ const RightPortfolioCard = ({
         <div className="portfolio-entry-icons">
           {projectLink && (
             <a
-              className="portfolio-entry-icons-btn"
+              className="portfolio-entry-icon"
               href={projectLink}
               aria-label="Open project"
               target="_blank"
@@ -52,7 +41,7 @@ const RightPortfolioCard = ({
 
           {githubLink && (
             <a
-              className="portfolio-entry-icons-btn"
+              className="portfolio-entry-icon"
               href={githubLink}
               aria-label="View source on GitHub"
               target="_blank"
@@ -64,7 +53,7 @@ const RightPortfolioCard = ({
 
           {figmaLink && (
             <a
-              className="portfolio-entry-icons-btn"
+              className="portfolio-entry-icon"
               href={figmaLink}
               aria-label="View Figma Mockup"
               target="_blank"

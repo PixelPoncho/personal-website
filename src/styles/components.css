@@ -371,19 +371,21 @@ p.about-text a:hover {
 /* Portfolio component */
 .portfolio-entry-left-container,
 .portfolio-entry-right-container {
-  padding: 28px 20px;
   display: flex;
   align-items: center;
   justify-content: center;
-  position: relative;
-  /* max-width: 1100px; */
-  margin: 0 auto;
+  padding: 2rem 0;
+}
+
+.portfolio-entry-left-container .portfolio-entry-left,
+.portfolio-entry-right-container .portfolio-entry-right {
+  max-width: 450px;
 }
 
 .portfolio-entry-right-container .portfolio-entry-left {
   width: var(--left-w, 420px);
   height: var(--left-h, 220px);
-  background: var(--left-bg, #13c4b1);
+  background: var(--color-blue-green);
   border-radius: 20px;
   box-shadow: 0 18px 30px rgba(6, 8, 17, 0.45);
   flex: 0 0 auto;
@@ -398,14 +400,14 @@ p.about-text a:hover {
   .portfolio-entry-right
   .card.portfolio-entry-card {
   text-align: right;
-  padding: 2rem;
+  padding: 2rem 2rem 2rem 3rem;
 }
 
 /* LEFT CARD */
 .portfolio-entry-left-container .portfolio-entry-right {
   width: var(--left-w, 420px);
   height: var(--left-h, 220px);
-  background: var(--left-bg, #13c4b1);
+  background: var(--color-blue-green);
   border-radius: 20px;
   box-shadow: 0 18px 30px rgba(6, 8, 17, 0.45);
   flex: 0 0 auto;
@@ -419,8 +421,7 @@ p.about-text a:hover {
 .portfolio-entry-left-container
   .portfolio-entry-left
   .card.portfolio-entry-card {
-  text-align: left;
-  padding: 2rem;
+  padding: 2rem 3rem 2rem 2rem;
 }
 
 .portfolio-entry-title {
@@ -428,44 +429,46 @@ p.about-text a:hover {
 }
 
 .portfolio-entry-subtitle {
-  margin: 0 0 14px 0;
+  margin: 0 0 2rem 0;
 }
 
 .portfolio-entry-tech-list {
   display: flex;
-  gap: 10px;
+  flex-wrap: wrap;
+  column-gap: 10px;
   align-items: center;
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
-.portfolio-entry-tech-item {
-  font-size: 13px;
-  color: #17b59e;
+.portfolio-entry-tech-item.text {
+  color: var(--color-blue-green);
+  font-size: small;
 }
 
-.portfolio-entry-tech-item a {
-  color: #17b59e;
-  text-decoration: none;
-  font-weight: 600;
+.portfolio-entry-icons {
+  display: flex;
+  gap: 1rem;
+}
+
+.portfolio-entry-right-container .portfolio-entry-icons {
+  justify-content: end;
 }
 
 .portfolio-entry-icon {
-  display: flex;
-  gap: 12px;
-  align-items: flex-end;
+  text-decoration: none;
+  margin: 1rem 0 0;
 }
 
-.portfolio-entry-icon-btn {
-  width: 44px;
-  height: 44px;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  background: transparent;
-  border-radius: 8px;
-  text-decoration: none;
+.portfolio-entry-icon svg {
+  height: 2rem;
+  width: 2rem;
+  color: var(--color-yellow);
+}
+
+.portfolio-entry-icon svg:hover {
+  color: var(--color-yellow-hover);
 }
 
 /* Additional Projects Section */

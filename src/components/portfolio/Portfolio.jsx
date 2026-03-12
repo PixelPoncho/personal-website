@@ -4,22 +4,45 @@ import RightPortfolioCard from "./RightPortfolioCard";
 import SquareCard from "./SquareCard";
 
 // Data
-import mainPortfolioEntries from "./mainPortfolioEntries.json";
+import mainPortfolioEntries from "./mainPortfolioEntries";
 
 const Portfolio = () => {
   return (
     <section className={`portfolio`}>
       {/* Renders the multiple portfolio components */}
       {mainPortfolioEntries.map((portfolioEntry, index) => {
+        const techItems = [];
+
+        portfolioEntry.tech.forEach((t, i) => {
+          techItems.push(
+            <li
+              key={`tech-${i}`}
+              className="poppins-bold text portfolio-entry-tech-item"
+            >
+              {typeof t === "string" ? <p>{t}</p> : t}
+            </li>,
+          );
+          if (i < portfolioEntry.tech.length - 1)
+            techItems.push(
+              <li
+                key={`sep-${i}`}
+                className="separator portfolio-entry-tech-item"
+              >
+                |
+              </li>,
+            );
+        });
+
         if (index % 2) {
           return (
             <LeftPortfolioCard
               key={index}
               title={portfolioEntry.title}
               subtitle={portfolioEntry.subtitle}
-              tech={portfolioEntry.tech}
+              techItems={techItems}
               projectLink={portfolioEntry.projectLink}
-              gitHubLink={portfolioEntry.gitHubLink}
+              githubLink={portfolioEntry.githubLink}
+              figmaLink={portfolioEntry.figmaLink}
               image={portfolioEntry.image}
             />
           );
@@ -29,9 +52,10 @@ const Portfolio = () => {
               key={index}
               title={portfolioEntry.title}
               subtitle={portfolioEntry.subtitle}
-              tech={portfolioEntry.tech}
+              techItems={techItems}
               projectLink={portfolioEntry.projectLink}
-              gitHubLink={portfolioEntry.gitHubLink}
+              githubLink={portfolioEntry.githubLink}
+              figmaLink={portfolioEntry.figmaLink}
               image={portfolioEntry.image}
             />
           );
