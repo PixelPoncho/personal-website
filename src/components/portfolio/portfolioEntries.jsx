@@ -41,14 +41,9 @@ const mainPortfolioEntries = [
 
 export const additionalPortfolioEntries = [
   {
-    title: "rosito.ca",
-    description: "Personal Portfolio Website",
-    buttonText: "View Branding Guide",
-    link: celcBranding,
-  },
-  {
-    title: "rosito.ca",
-    description: "Personal Portfolio Website",
+    title: "CELC 2023",
+    description:
+      "Created conference branding, visual identity, merchandise, sponsorship & delegate materials, and more",
     buttonText: "View Branding Guide",
     link: celcBranding,
   },

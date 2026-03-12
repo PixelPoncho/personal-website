@@ -66,7 +66,7 @@ const Portfolio = () => {
       })}
 
       {/* extra square projects */}
-      <h2 className="card additional-projects-header poppins-semibold">
+      <h2 className="card additional-projects-header poppins-bold">
         Additional Projects
       </h2>
       <div className="additional-portfolio-container">
