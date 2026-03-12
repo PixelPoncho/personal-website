@@ -271,7 +271,7 @@ p.about-text {
 }
 
 .bullet-container li.bullet:last-child {
-  margin: 8px 0 32px;
+  margin: 0 0 0.75rem;
 }
 
 .bullet-container li.bullet::before {
@@ -284,16 +284,21 @@ p.about-text {
 }
 
 /* Subtitle sections */
-.subtitle-section {
-  /* margin-top: 1.5rem; */
+.subRole-section .subRole-title {
+  font-weight: bold;
+  margin: 0.5rem 0 0;
 }
 
-.subtitle-section .subtitle {
-  /* margin: 0 ; */
+.subRole-section ul.bullet-container {
+  margin: 0;
 }
 
-.subtitle-section .bullet-container {
-  /* margin-top: 0.5rem; */
+.subRole-section .bullet-container li.bullet:first-child {
+  margin: 0.25rem 0 0;
+}
+
+.subRole-section .bullet-container li.bullet:last-child {
+  margin: 0 0 0.75rem;
 }
 
 /* Mobile responsive: reorder experience entry on small screens */
@@ -339,8 +344,13 @@ p.about-text {
   font-size: x-large;
   font-weight: bold;
   color: var(--color-blue-green);
-  margin: 0.5rem 0 1.5rem;
+  margin: 0.5rem 0 0;
 }
+
+.volunteer-card .experience-container .entry-header {
+  margin: 2rem 0 0;
+}
+
 
 .volunteer-card .volunteer.experience-container .entry-header,
 .volunteer-card
@@ -606,6 +616,7 @@ footer.footer-container p.footer-text {
   font-family: inherit;
 
   width: 100%;
+  box-sizing: border-box; /* include padding in width calculation */
   border: 1px solid #ccc;
   border-radius: 8px;
   padding: 0.75rem;

@@ -33,11 +33,11 @@ const ExperienceEntry = ({
       {/* sub-roles  */}
       {subRoles.length > 0 &&
         subRoles.map((section, idx) => (
-          <div key={idx} className="subtitle-section">
-            <p className="subtitle-title">{section.subtitle}</p>
-            {section.subtitleBullets && section.subtitleBullets.length > 0 && (
+          <div key={idx} className="subRole-section">
+            <p className="subRole-title">{section.subRoleTitle}</p>
+            {section.subRoleBullets && section.subRoleBullets.length > 0 && (
               <ul className="bullet-container">
-                {section.subtitleBullets.map((b, i) => (
+                {section.subRoleBullets.map((b, i) => (
                   <li
                     key={i}
                     className="bullet"

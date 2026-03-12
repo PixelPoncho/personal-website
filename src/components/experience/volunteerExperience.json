@@ -5,16 +5,16 @@
     "date": "Sep. 2017 - Dec. 2025",
     "subRoles": [
       {
-        "subtitle": "Webmaster",
-        "subtitleBullets": [
+        "subRoleTitle": "Webmaster",
+        "subRoleBullets": [
           "Maintained and enhanced the UI/UX of the Society's website, built with React, to improve accessibility and drive student involvement.",
           "Oversaw internal web services to ensure reliability and performance.",
           "Developed comprehensive documentation and a transition guide to support future webmasters and ensure continuity."
         ]
       },
       {
-        "subtitle": "Artistic Commissioner",
-        "subtitleBullets": [
+        "subRoleTitle": "Artistic Commissioner",
+        "subRoleBullets": [
           "Designed and produce promotional materials, including posters and digital graphics, to support Society initiatives and events.",
           "Managed the Society's social media and online presence to enhance engagement and outreach.",
           "Developed branded merchandise such as hoodies, shirts, and patches to strengthen community identity and visibility.",
@@ -35,13 +35,13 @@
     ]
   },
   {
-    "title": "Volunteer",
+    "title": "Various Positions",
     "organization": "Calgary Comic and Entertainment Expo",
     "date": "Apr. 2017 - Present",
     "subRoles": [
       {
-        "subtitle": "Crew Support Member",
-        "subtitleBullets": [
+        "subRoleTitle": "Crew Support Member",
+        "subRoleBullets": [
           "Assisted with event setup and teardown.",
           "Managed volunteer check-in and check-out processes to maintain accurate staffing coordination.",
           "Supported Operations in monitoring and enforcing Expo policies to ensure attendee safety and compliance.",
@@ -49,8 +49,8 @@
         ]
       },
       {
-        "subtitle": "Media Guest Services Member",
-        "subtitleBullets": [
+        "subRoleTitle": "Media Guest Services Member",
+        "subRoleBullets": [
           "Worked directly with invited celebrity guests, maintaining a high standard of professionalism and discretion.",
           "Ensured guests had a positive experience while coordinating schedules for panels, photo ops, and autograph sessions.",
           "Managed cash and point-of-sale transactions for guest merchandise sales, maintaining accuracy and accountability.",
