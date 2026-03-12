@@ -8,6 +8,8 @@ import Portfolio from "./portfolio/Portfolio";
 import Footer from "./footer/Footer";
 // import Contact from "./contact/Contact";
 
+import ScrollToTopButton from "./button/ScrollToTopButton";
+
 const LandingPage = () => {
   return (
     <>
@@ -54,6 +56,8 @@ const LandingPage = () => {
       </main>
 
       <Footer />
+
+      <ScrollToTopButton />
     </>
   );
 };
