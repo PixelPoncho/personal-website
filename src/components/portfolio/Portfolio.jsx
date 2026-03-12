@@ -65,10 +65,7 @@ const Portfolio = () => {
         }
       })}
 
-      {/* extra square projects */}
-      <h2 className="card additional-projects-header poppins-bold">
-        Additional Projects
-      </h2>
+      {/* Additional portfolio projects */}
       <div className="additional-portfolio-container">
         {additionalPortfolioEntries.map((portfolioEntry, index) => (
           <SquareCard
