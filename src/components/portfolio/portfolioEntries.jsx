@@ -47,6 +47,13 @@ export const additionalPortfolioEntries = [
     buttonText: "View Branding Guide",
     link: celcBranding,
   },
+  {
+    title: "RollPlay",
+    description:
+      "Coursework for a Human-Computer Interaction Course. Prototype is for a D&D session assistant type app",
+    buttonText: "View Figma Prototype",
+    link: "https://www.figma.com/proto/VUXa9qQxBg21JoXzxtajIM/Human-User-Interaction-Studies?page-id=0%3A1&node-id=682-18500&p=f&viewport=487%2C585%2C0.02&t=ycOrDRHRiys7RvIq-9&scaling=scale-down&content-scaling=fixed&starting-point-node-id=682%3A18500&show-proto-sidebar=1",
+  },
 ];
 
 export default mainPortfolioEntries;
