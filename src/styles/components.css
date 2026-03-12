@@ -345,12 +345,6 @@ p.about-text a:hover {
   }
 }
 
-.resume-download {
-  color: var(--color-off-white);
-  font: inherit;
-  text-decoration: none;
-}
-
 /* ///////////////////////////////////////////////////////// */
 /* Portfolio component */
 .portfolio {

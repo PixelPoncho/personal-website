@@ -162,14 +162,17 @@ h1 {
 }
 
 button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
+  color: var(--color-off-white);
+  background-color: var(--color-pink);
+  font: inherit;
+  text-decoration: none;
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: var(--color-pink);
   cursor: pointer;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
 }
 
 button:hover {
