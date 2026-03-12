@@ -1,12 +1,10 @@
-import React from "react";
-
-export default function SquareCard({
+const SquareCard = ({
   title = "Project Title",
   description = "Short description goes here.",
   buttonText = "View Details",
   link = "#",
-  bgColor = "#13c4b1"
-}) {
+  bgColor = "#13c4b1",
+}) => {
   return (
     <div className="square-card" style={{ backgroundColor: bgColor }}>
       <div className="square-overlay">
@@ -18,4 +16,6 @@ export default function SquareCard({
       </div>
     </div>
   );
-}
+};
+
+export default SquareCard;

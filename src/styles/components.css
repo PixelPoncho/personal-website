@@ -154,6 +154,10 @@ p.about-text a {
   color: var(--color-yellow);
 }
 
+p.about-text a:hover {
+  color: var(--color-yellow-hover);
+}
+
 /* Role cards */
 .role-container {
   display: flex;
@@ -169,22 +173,28 @@ p.about-text a {
   padding: 2rem;
 }
 
-.role-title {
+.role-container .card.role-card .role-title {
+  color: var(--color-blue-green);
+  margin: 0 0 0.5rem;
+}
+
+.role-container .card.role-card .role-description {
   margin: 0 0 1rem;
 }
 
-.role-section {
+.role-container .card.role-card.role-section {
   margin-top: 1.5rem;
 }
 
-.role-section-title {
-  margin: 0 0 0.75rem;
+.role-container .card.role-card .role-section-title {
+  font-size: medium;
+  margin: 0;
 }
 
-.role-list {
+.role-container .card.role-card .role-list {
   list-style: none;
   padding: 0;
-  margin: 0;
+  margin: 0 0 1rem;
 }
 
 @media (max-width: 768px) {
@@ -306,6 +316,16 @@ p.about-text a {
     font-weight: 400;
     font-size: small;
     margin: 0.25rem 0 0;
+  }
+
+  /* Resume download button should keep off-white text, even when wrapped in an anchor */
+  .resume-download {
+    color: var(--color-off-white);
+    /* background: none;
+    border: none; */
+    font: inherit;
+    /* ensure link color doesn't override inside button */
+    text-decoration: none;
   }
 
   .experience-container .bullet-container {

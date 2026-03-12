@@ -3,7 +3,7 @@ import LeftPortfolioCard from "./LeftPortfolioCard";
 import RightPortfolioCard from "./RightPortfolioCard";
 import SquareCard from "./SquareCard";
 
-export default function Portfolio() {
+const Portfolio = () => {
   const mainPortfolioEntries = [];
   return (
     <section className={`portfolio`}>
@@ -52,4 +52,6 @@ export default function Portfolio() {
       </div>
     </section>
   );
-}
+};
+
+export default Portfolio;

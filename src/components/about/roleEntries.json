@@ -1,10 +1,10 @@
 [
   {
     "title": "Designer",
-    "description": "A Visual designer focused on creating clean, engaging digital experiences that are both functional and user-centered.",
+    "description": "A visual designer focused on creating clean, engaging digital experiences that are both functional and user-centered.",
     "sections": [
       {
-        "title": "Things I enjoy designing:",
+        "title": "Things I Design:",
         "items": [
           "Website interfaces, User flows, Marketing & promotional material, Merchandise, Logos"
         ]
@@ -18,15 +18,15 @@
     ]
   },
   {
-    "title": "Full-stack Developer",
+    "title": "Full-Stack Developer",
     "description": "A full-stack software engineer with hands-on experience designing and maintaining scalable web applications.",
     "sections": [
       {
-        "title": "Languages I speak:",
+        "title": "Languages:",
         "items": ["Javascript, HTML, CSS, SQL"]
       },
       {
-        "title": "Frameworks & Libraries I use:",
+        "title": "Frameworks & Libraries:",
         "items": ["React, Node.js, Apollo GraphQL, Material UI (MUI)"]
       },
       {

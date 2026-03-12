@@ -8,7 +8,7 @@ import Portfolio from "./portfolio/Portfolio";
 import Footer from "./footer/Footer";
 import Contact from "./contact/Contact";
 
-function LandingPage() {
+const LandingPage = () => {
   return (
     <>
       <Navbar />
@@ -39,6 +39,6 @@ function LandingPage() {
       <Footer />
     </>
   );
-}
+};
 
 export default LandingPage;

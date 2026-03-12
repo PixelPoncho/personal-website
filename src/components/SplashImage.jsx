@@ -1,4 +1,4 @@
-// styles moved to src/styles/pages.css
+// Imported Assets
 import profile from "../assets/splash/profile.png";
 
 const SplashImage = () => {

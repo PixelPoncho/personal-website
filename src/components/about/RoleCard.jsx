@@ -6,7 +6,9 @@ const RoleCard = ({ title, description, sections = [] }) => {
 
       {sections.map((section, idx) => (
         <div key={idx} className="role-section">
-          <h3 className="role-section-title">{section.title}</h3>
+          <h3 className="poppins-semibold role-section-title">
+            {section.title}
+          </h3>
           <ul className="role-list">
             {section.items.map((item, itemIdx) => (
               <li key={itemIdx}>{item}</li>

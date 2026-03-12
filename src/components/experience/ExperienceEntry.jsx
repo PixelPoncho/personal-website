@@ -1,5 +1,3 @@
-// styles moved to src/styles/components.css
-
 const ExperienceEntry = ({
   className = "",
   title,
