@@ -6,7 +6,7 @@ import About from "./about/About";
 import Experience from "./experience/Experience";
 import Portfolio from "./portfolio/Portfolio";
 import Footer from "./footer/Footer";
-import Contact from "./contact/Contact";
+// import Contact from "./contact/Contact";
 
 const LandingPage = () => {
   return (
@@ -32,7 +32,21 @@ const LandingPage = () => {
 
         <section>
           <Headers title="Contact" />
-          <Contact />
+          <div className="contact-card">
+            <p className="contact-text">
+              I'd love to hear from you! Whether you have a question, a project
+              idea, or just want to chat, feel free to reach out. Let's connect
+              and create something amazing together.
+            </p>
+            <a href="mailto:ines@rosito.ca" className="contact-button">
+              <button>Contact Me</button>
+            </a>
+          </div>
+
+          {/* 
+            Contact form awaiting full implementation
+            <Contact /> 
+          */}
         </section>
       </main>
 

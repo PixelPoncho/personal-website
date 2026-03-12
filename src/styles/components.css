@@ -151,11 +151,12 @@ p.about-text {
 }
 
 p.about-text a {
-  color: var(--color-yellow);
+  font-weight: bold;
+  color: var(--color-pink);
 }
 
 p.about-text a:hover {
-  color: var(--color-yellow-hover);
+  color: var(--color-pink-hover);
 }
 
 /* Role cards */
@@ -318,16 +319,6 @@ p.about-text a:hover {
     margin: 0.25rem 0 0;
   }
 
-  /* Resume download button should keep off-white text, even when wrapped in an anchor */
-  .resume-download {
-    color: var(--color-off-white);
-    /* background: none;
-    border: none; */
-    font: inherit;
-    /* ensure link color doesn't override inside button */
-    text-decoration: none;
-  }
-
   .experience-container .bullet-container {
     order: 4;
   }
@@ -352,6 +343,12 @@ p.about-text a:hover {
     font-size: small;
     margin: 0.25rem 0 0;
   }
+}
+
+.resume-download {
+  color: var(--color-off-white);
+  font: inherit;
+  text-decoration: none;
 }
 
 /* ///////////////////////////////////////////////////////// */
@@ -553,6 +550,32 @@ footer.footer-container p.footer-text {
 /* Contact Section */
 .contact-card {
   max-width: 600px;
+  margin: 2rem auto 6rem;
+  padding: 3rem;
+  background-color: var(--color-blue-purple-hover);
+  border-radius: 12px;
+  text-align: center;
+}
+
+.contact-card .contact-text {
+  margin-bottom: 2rem;
+}
+
+.contact-button button {
+  padding: 0.75rem 2rem;
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .contact-card {
+    padding: 2rem;
+  }
+}
+
+/* ///////////////////////////////////////////////////////// */
+/* Contact Section for Submission Form */
+/* .contact-card {
+  max-width: 600px;
   margin: 0 auto 6rem;
 }
 
@@ -588,4 +611,4 @@ footer.footer-container p.footer-text {
 .contact-form button {
   display: block;
   margin-left: auto;
-}
+} */

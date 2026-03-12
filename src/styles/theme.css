@@ -33,7 +33,7 @@ main.site-body {
 }
 
 @media (max-width: 768px) {
-  div.site-body {
+  main.site-body {
     width: 85%;
   }
 }
