@@ -1,6 +1,3 @@
-// Imported components
-import React from "react";
-
 // styles moved to src/styles/pages.css
 import profile from "../assets/splash/profile.png";
 
@@ -14,7 +11,6 @@ const SplashImage = () => {
           Just another developer looking to improve.
         </p>
       </div>
-      {/* actual profile image */}
       <img src={profile} alt="Profile" className="splash-image" />
     </div>
   );

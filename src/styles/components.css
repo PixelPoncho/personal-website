@@ -84,23 +84,31 @@ header nav a.nav-link:hover {
   height: 90vh;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   padding: 0 4rem;
-  gap: 3rem;
+}
+.splash-text {
+  margin: 0 3rem 0 0;
 }
 
-.splash-greeting {
+.splash-text .splash-greeting {
   font-size: 2.5rem;
 }
 
-.splash-title {
+.splash-text .splash-title {
   font-size: 6rem;
-  margin: 0 0 8px 0;
+  margin: 0 0 0.5rem 0;
 }
 
-.splash-subtitle {
+.splash-text .splash-subtitle {
   font-size: medium;
   font-style: italic;
+}
+
+@media (max-width: 992px) {
+  .splash-image {
+    max-width: 60vw;
+  }
 }
 
 @media (max-width: 768px) {
