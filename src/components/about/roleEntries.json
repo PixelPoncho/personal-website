@@ -1,70 +1,53 @@
 [
   {
     "title": "Designer",
-    "description": "I value simple content structure, clean design patterns, and thoughtful interactions.",
+    "description": "A Visual designer focused on creating clean, engaging digital experiences that are both functional and user-centered.",
     "sections": [
       {
         "title": "Things I enjoy designing:",
-        "items": ["UX, UI, Web, Mobile, Apps, Logos"]
+        "items": [
+          "Website interfaces, User flows, Marketing & promotional material, Merchandise, Logos"
+        ]
       },
       {
         "title": "Design Tools:",
         "items": [
-          "Balsamiq Mockups",
           "Figma",
-          "Invision",
-          "Marvel",
+          "Inkscape",
+          "GIMP",
+          "Canva",
+          "DaVinci Resolve",
           "Pen & Paper",
-          "Sketch",
-          "Webflow",
-          "Zeplin"
+          "Adobe Creative Cloud",
+          "Microsoft Office Suite"
         ]
       }
     ]
   },
   {
-    "title": "Front-end Developer",
-    "description": "I like to code things from scratch, and enjoy bringing ideas to life in the browser.",
+    "title": "Full-stack Developer",
+    "description": "A full-stack software engineer with hands-on experience designing and maintaining scalable web applications.",
     "sections": [
       {
         "title": "Languages I speak:",
-        "items": ["HTML, Pug, Slim, CSS, Sass, Less"]
+        "items": ["Javascript, HTML, CSS, SQL"]
       },
       {
-        "title": "Dev Tools:",
-        "items": [
-          "Atom",
-          "Bitbucket",
-          "Bootstrap",
-          "Bulma",
-          "Codekit",
-          "Codepen",
-          "Github",
-          "Gitlab",
-          "Terminal"
-        ]
-      }
-    ]
-  },
-  {
-    "title": "Mentor",
-    "description": "I genuinely care about people, and love helping fellow designers work on their craft.",
-    "sections": [
-      {
-        "title": "Experiences I draw from:",
-        "items": ["UX/UI, Product design, Freelancing"]
+        "title": "Frameworks & Libraries I use:",
+        "items": ["React", "Node.js", "Apollo GraphQL", "Material UI (MUI)"]
       },
       {
-        "title": "Mentor Stats:",
+        "title": "Developer Tools & Standards:",
         "items": [
-          "5 years experience",
-          "26 short courses",
-          "42 bootcamps",
-          "125+ students",
-          "1,400+ mentor sessions",
-          "60+ group critiques",
-          "12,000+ comments"
+          "Git",
+          "Jest",
+          "React Testing Library",
+          "WCAG 2.x Acessibility Compliance"
         ]
+      },
+      {
+        "title": "Platforms:",
+        "items": ["Ubuntu", "Windows", "MacOS"]
       }
     ]
   }

@@ -2,21 +2,21 @@
 import React from "react";
 
 // styles moved to src/styles/pages.css
+import profile from "../assets/splash/profile.png";
 
 const SplashImage = () => {
   return (
-    <article className="landing">
-      <div className="landing__content">
-        <div className="landing__greeting">Hey there,</div>
-        <h1 className="landing__title">I'm Poncho.</h1>
-        <p className="landing__subtitle">
-          Just another developer looking to improve. Hope you like what you see.
+    <div className="splash-container">
+      <div className="splash-text">
+        <div className="poppins-regular splash-greeting">Hey there,</div>
+        <h1 className="poppins-black splash-title">I'm Ines.</h1>
+        <p className="poppins-light splash-subtitle">
+          Just another developer looking to improve.
         </p>
       </div>
-      <div className="landing__image-placeholder">
-        {/* Placeholder circle for illustration */}
-      </div>
-    </article>
+      {/* actual profile image */}
+      <img src={profile} alt="Profile" className="splash-image" />
+    </div>
   );
 };
 

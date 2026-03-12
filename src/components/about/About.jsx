@@ -1,7 +1,7 @@
 // Project-defined components
 import RoleCard from "./RoleCard";
 
-// Data
+// Relevant Data
 import roleEntries from "./roleEntries.json";
 
 const About = () => {

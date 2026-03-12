@@ -9,9 +9,9 @@ const Contact = () => {
       <p>I'll get back to you as soon as possible.</p>
 
       <form className="contact-form">
-        <input type="text" name="name" placeholder="Your Name*" required />
-        <input type="email" name="email" placeholder="Your Email*" required />
-        <textarea name="message" placeholder="Your Message*" rows={6} required />
+        <input type="text" name="name" placeholder="Name*" required />
+        <input type="email" name="email" placeholder="Email*" required />
+        <textarea name="message" placeholder="Message*" rows={6} required />
         <button type="submit">Submit</button>
       </form>
     </div>

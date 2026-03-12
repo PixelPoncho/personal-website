@@ -12,7 +12,7 @@ const ExperienceEntry = ({
     <div className={`${className} experience-container`}>
       <div className="entry-header">
         <h3 className="job-title poppins-semibold">{title}</h3>
-        <h3 className="date poppins-extralight">{date}</h3>
+        <h3 className="date poppins-light">{date}</h3>
       </div>
       <div className="poppins-regular">{organization}</div>
 

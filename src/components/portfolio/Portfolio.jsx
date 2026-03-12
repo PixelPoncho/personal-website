@@ -37,7 +37,9 @@ export default function Portfolio() {
       })}
 
       {/* extra square projects */}
-      <h2 className="additional-projects-header">Additional Projects</h2>
+      <h2 className="card additional-projects-header poppins-semibold">
+        Additional Projects
+      </h2>
       <div className="portfolio__extra">
         <SquareCard
           title="celc.cfes.ca"
