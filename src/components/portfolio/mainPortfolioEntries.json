@@ -1,0 +1,20 @@
+[
+  {
+    "title": "rosito.ca",
+    "subtitle": "Personal Portfolio Website",
+    "tech": ["React", "HTML", "CSS", "Git", "Figma"],
+    "projectLink": "https://rosito.ca",
+    "gitHubLink": "https://github.com/PixelPoncho/personal-website",
+    "figmaLink": "",
+    "image": ""
+  },
+  {
+    "title": "zooengg.ca",
+    "subtitle": "Electrical and Software Engineering Students' Society Website",
+    "tech": ["React", "HTML", "CSS", "Firebase", "Git", "Figma"],
+    "projectLink": "https://zooengg.ca/",
+    "gitHubLink": "https://github.com/zoouofc/new-website",
+    "figmaLink": "",
+    "image": ""
+  }
+]

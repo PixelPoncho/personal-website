@@ -3,15 +3,17 @@ import LeftPortfolioCard from "./LeftPortfolioCard";
 import RightPortfolioCard from "./RightPortfolioCard";
 import SquareCard from "./SquareCard";
 
+// Data
+import mainPortfolioEntries from "./mainPortfolioEntries.json";
+
 const Portfolio = () => {
-  const mainPortfolioEntries = [];
   return (
     <section className={`portfolio`}>
       {/* Renders the multiple portfolio components */}
       {mainPortfolioEntries.map((portfolioEntry, index) => {
         if (index % 2) {
           return (
-            <RightPortfolioCard
+            <LeftPortfolioCard
               key={index}
               title={portfolioEntry.title}
               subtitle={portfolioEntry.subtitle}
@@ -23,7 +25,7 @@ const Portfolio = () => {
           );
         } else {
           return (
-            <LeftPortfolioCard
+            <RightPortfolioCard
               key={index}
               title={portfolioEntry.title}
               subtitle={portfolioEntry.subtitle}
