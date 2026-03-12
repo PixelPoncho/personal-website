@@ -60,7 +60,7 @@ const LeftPortfolioCard = ({
         </div>
       </div>
       <div
-        className="portfolio-entry-right"
+        className="card portfolio-entry-right"
         style={{ backgroundImage: `url(${image})`, objectFit: "cover" }}
       />
     </div>

@@ -379,16 +379,21 @@ p.about-text a:hover {
 
 .portfolio-entry-left-container .portfolio-entry-left,
 .portfolio-entry-right-container .portfolio-entry-right {
+  z-index: 1;
   max-width: 450px;
+  min-width: 300px;
 }
 
+/* //////////////////////////////? */
+/* Right Card */
 .portfolio-entry-right-container .portfolio-entry-left {
-  width: var(--left-w, 420px);
-  height: var(--left-h, 220px);
-  background: var(--color-blue-green);
-  border-radius: 20px;
-  box-shadow: 0 18px 30px rgba(6, 8, 17, 0.45);
+  max-width: 500px;
+  max-height: 300px;
+  width: 500px;
+  height: 300px;
   flex: 0 0 auto;
+  -webkit-filter: blur(1px);
+  filter: blur(1px);
 }
 
 .portfolio-entry-right-container .portfolio-entry-right {
@@ -403,14 +408,21 @@ p.about-text a:hover {
   padding: 2rem 2rem 2rem 3rem;
 }
 
+.portfolio-entry-right-container .portfolio-entry-icons,
+.portfolio-entry-right-container .portfolio-entry-tech-list {
+  justify-content: end;
+}
+
+/* //////////////////////////////? */
 /* LEFT CARD */
-.portfolio-entry-left-container .portfolio-entry-right {
-  width: var(--left-w, 420px);
-  height: var(--left-h, 220px);
-  background: var(--color-blue-green);
-  border-radius: 20px;
-  box-shadow: 0 18px 30px rgba(6, 8, 17, 0.45);
+.portfolio-entry-left-container .card.portfolio-entry-right {
+  max-width: 500px;
+  max-height: 300px;
+  width: 500px;
+  height: 300px;
   flex: 0 0 auto;
+  -webkit-filter: blur(1px);
+  filter: blur(1px);
 }
 
 .portfolio-entry-left-container .portfolio-entry-left {
@@ -452,10 +464,6 @@ p.about-text a:hover {
   gap: 1rem;
 }
 
-.portfolio-entry-right-container .portfolio-entry-icons {
-  justify-content: end;
-}
-
 .portfolio-entry-icon {
   text-decoration: none;
   margin: 1rem 0 0;
@@ -469,6 +477,29 @@ p.about-text a:hover {
 
 .portfolio-entry-icon svg:hover {
   color: var(--color-yellow-hover);
+}
+
+@media (max-width: 1024px) {
+  .portfolio-entry-right-container,
+  .portfolio-entry-left-container {
+    display: grid;
+    flex-wrap: wrap;
+    padding: 1rem 0;
+  }
+
+  .portfolio-entry-right-container .portfolio-entry-right {
+    order: 1;
+  }
+
+  .portfolio-entry-left-container .portfolio-entry-right,
+  .portfolio-entry-right-container .portfolio-entry-left {
+    display: none;
+  }
+
+  .portfolio-entry-right-container .portfolio-entry-right,
+  .portfolio-entry-left-container .portfolio-entry-left {
+    margin: 0 auto;
+  }
 }
 
 /* Additional Projects Section */

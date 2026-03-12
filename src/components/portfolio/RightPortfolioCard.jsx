@@ -14,8 +14,8 @@ const RightPortfolioCard = ({
   return (
     <div className="portfolio-entry-right-container">
       <div
-        className="portfolio-entry-left"
-        style={{ backgroundImage: `url(${image})`, objectFit: "cover" }}
+        className="card portfolio-entry-left"
+        style={{ backgroundImage: `url(${image})`, objectFit: "stretch" }}
       />
 
       <div className="portfolio-entry-right">
