@@ -312,6 +312,10 @@ p.about-text {
     display: contents; /* promotes children to grid items */
   }
 
+  .volunteer-card .experience-container .entry-header .job-title {
+    margin: 1.5rem 0 0;
+  }
+
   .experience-container .entry-header h3.job-title {
     order: 1;
   }
@@ -332,6 +336,10 @@ p.about-text {
   .experience-container .bullet-container {
     order: 4;
   }
+
+  .experience-container .subRole-section {
+    order: 5;
+  }
 }
 
 /* ///////////////////////////////////////////////////////// */
@@ -350,7 +358,6 @@ p.about-text {
 .volunteer-card .experience-container .entry-header {
   margin: 2rem 0 0;
 }
-
 
 .volunteer-card .volunteer.experience-container .entry-header,
 .volunteer-card
