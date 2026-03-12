@@ -1,12 +1,6 @@
-const SquareCard = ({
-  title = "Project Title",
-  description = "Short description goes here.",
-  buttonText = "View Details",
-  link = "#",
-  bgColor = "#13c4b1",
-}) => {
+const SquareCard = ({ title, description, buttonText, link }) => {
   return (
-    <div className="square-card" style={{ backgroundColor: bgColor }}>
+    <div className=" card square-card">
       <div className="square-overlay">
         <h3>{title}</h3>
         <p>{description}</p>

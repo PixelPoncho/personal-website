@@ -1,7 +1,13 @@
-// import rositoMockup from '../../assets/mockups/rositoMockup.png'
+// Main Portfolio image imports
 import hackYourLearningMockup from "../../assets/mockups/hackYourLearning.png";
+import hackYourLearningMockupPreview from "../../assets/mockups/hackYourLearningPreview.png";
 import zooenggMockup from "../../assets/mockups/zooengg.png";
+import zooenggMockupPreview from "../../assets/mockups/zooenggPreview.png";
 import rositoMockup from "../../assets/mockups/rosito.png";
+import rositoMockupPreview from "../../assets/mockups/rositoPreview.png";
+
+// Additional Portfolio imports
+import celcBranding from "../../assets/pdf/celcBrandingGuide.pdf";
 
 const mainPortfolioEntries = [
   {
@@ -10,8 +16,8 @@ const mainPortfolioEntries = [
     tech: ["React", "HTML", "CSS", "Git", "Figma"],
     projectLink: "https://rosito.ca",
     githubLink: "https://github.com/PixelPoncho/personal-website",
-    figmaLink: "",
-    image: rositoMockup,
+    figmaLink: rositoMockup,
+    image: rositoMockupPreview,
   },
   {
     title: "zooengg.ca",
@@ -19,9 +25,8 @@ const mainPortfolioEntries = [
     tech: ["React", "CSS", "MUI", "Firebase", "Git", "Figma"],
     projectLink: "https://zooengg.ca/",
     githubLink: "https://github.com/zoouofc/new-website",
-    figmaLink:
-      "https://drive.google.com/file/d/1JDrxq-puvYo_r-KYIAPKhbo8S2pPO3ZW/view?usp=drive_link",
-    image: zooenggMockup,
+    figmaLink: zooenggMockup,
+    image: zooenggMockupPreview,
   },
   {
     title: "hackyourlearning.ca",
@@ -29,9 +34,23 @@ const mainPortfolioEntries = [
     tech: ["React", "SCSS", "Firebase", "Git", "Figma"],
     projectLink: "",
     githubLink: "https://github.com/Hack-Your-Learning/hackyourlearning-site",
-    figmaLink:
-      "https://drive.google.com/file/d/1_thPo6pFocfI18Hk3btBy_GGxcaMC4n8/view?usp=drive_link",
-    image: hackYourLearningMockup,
+    figmaLink: hackYourLearningMockup,
+    image: hackYourLearningMockupPreview,
+  },
+];
+
+export const additionalPortfolioEntries = [
+  {
+    title: "rosito.ca",
+    description: "Personal Portfolio Website",
+    buttonText: "View Branding Guide",
+    link: celcBranding,
+  },
+  {
+    title: "rosito.ca",
+    description: "Personal Portfolio Website",
+    buttonText: "View Branding Guide",
+    link: celcBranding,
   },
 ];
 

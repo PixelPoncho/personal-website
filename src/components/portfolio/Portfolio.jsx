@@ -4,11 +4,14 @@ import RightPortfolioCard from "./RightPortfolioCard";
 import SquareCard from "./SquareCard";
 
 // Data
-import mainPortfolioEntries from "./mainPortfolioEntries";
+import mainPortfolioEntries, {
+  additionalPortfolioEntries,
+} from "./portfolioEntries";
 
 const Portfolio = () => {
+  console.log("additionalPortfolioEntries", additionalPortfolioEntries);
   return (
-    <section className={`portfolio`}>
+    <>
       {/* Renders the multiple portfolio components */}
       {mainPortfolioEntries.map((portfolioEntry, index) => {
         const techItems = [];
@@ -66,17 +69,18 @@ const Portfolio = () => {
       <h2 className="card additional-projects-header poppins-semibold">
         Additional Projects
       </h2>
-      <div className="portfolio__extra">
-        <SquareCard
-          title="celc.cfes.ca"
-          description="Designed visual assets, as well as a website used to highlight important conference features to sponsors"
-          buttonText="View Designs"
-          link="#"
-        />
-        <SquareCard bgColor="#17b59e" />
-        <SquareCard bgColor="#17b59e" />
+      <div className="additional-portfolio-container">
+        {additionalPortfolioEntries.map((portfolioEntry, index) => (
+          <SquareCard
+            key={index}
+            title={portfolioEntry.title}
+            description={portfolioEntry.description}
+            buttonText={portfolioEntry.buttonText}
+            link={portfolioEntry.link}
+          />
+        ))}
       </div>
-    </section>
+    </>
   );
 };
 
