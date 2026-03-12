@@ -1,4 +1,3 @@
-/* Global variables, typography and base styles (migrated from src/index.css) */
 :root {
   /* Custom defined colours */
   --color-dark-purple: #323549;
@@ -22,18 +21,13 @@
   color-scheme: light dark;
   color: var(--color-off-white);
   background-color: var(--color-blue-purple);
-
-  /* font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; */
 }
 
 body {
   margin: 0;
 }
 
-div.site-body {
+main.site-body {
   width: 70%;
   margin: 0 auto;
 }

@@ -14,7 +14,7 @@ function LandingPage() {
       <Navbar />
       <SplashImage />
 
-      <div className="site-body">
+      <main className="site-body">
         <section>
           <Headers title="About Me" />
           <About />
@@ -34,7 +34,7 @@ function LandingPage() {
           <Headers title="Contact" />
           <Contact />
         </section>
-      </div>
+      </main>
 
       <Footer />
     </>

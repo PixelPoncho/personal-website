@@ -150,17 +150,23 @@ p.about-text {
   margin: 0 0 1rem;
 }
 
+p.about-text a {
+  color: var(--color-yellow);
+}
+
 /* Role cards */
 .role-container {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 3rem;
   margin: 2.5rem 0 0;
 }
 
 .role-container .card.role-card {
-  padding: 2rem;
   text-align: center;
+  max-width: 400px;
+  padding: 2rem;
 }
 
 .role-title {
@@ -489,13 +495,9 @@ h2.card.additional-projects-header {
 }
 
 .square-button {
-  /* background-color: var(--color-pink); */
   color: var(--color-off-white);
   padding: 0.5rem 1rem;
-  /* border-radius: 4px; */
   text-decoration: none;
-  /* font-size: 0.9rem;
- */
 }
 
 .square-button:hover {
@@ -530,7 +532,8 @@ footer.footer-container p.footer-text {
 /* ///////////////////////////////////////////////////////// */
 /* Contact Section */
 .contact-card {
-  margin: 0 0 6rem;
+  max-width: 600px;
+  margin: 0 auto 6rem;
 }
 
 .contact-card h2.contact-header {

@@ -5,6 +5,9 @@ import ExperienceEntry from "./ExperienceEntry";
 import workExperience from "./workExperience.json";
 import volunteerExperience from "./volunteerExperience.json";
 
+// Imported asset
+import resumePdf from "../../assets/pdf/RositoResume.pdf";
+
 const Experience = () => {
   return (
     <>
@@ -26,6 +29,17 @@ const Experience = () => {
           />
         ))}
       </div>
+
+      <a
+        href={resumePdf}
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Resume"
+      >
+        <button className="resume-download" alt="Download resume button">
+          Download My Resume
+        </button>
+      </a>
     </>
   );
 };

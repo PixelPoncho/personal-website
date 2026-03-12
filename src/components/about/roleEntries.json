@@ -12,14 +12,7 @@
       {
         "title": "Design Tools:",
         "items": [
-          "Figma",
-          "Inkscape",
-          "GIMP",
-          "Canva",
-          "DaVinci Resolve",
-          "Pen & Paper",
-          "Adobe Creative Cloud",
-          "Microsoft Office Suite"
+          "Figma, Inkscape, GIMP, Canva, DaVinci Resolve, Pen & Paper, Adobe Creative Cloud, Microsoft Office Suite"
         ]
       }
     ]
@@ -34,20 +27,17 @@
       },
       {
         "title": "Frameworks & Libraries I use:",
-        "items": ["React", "Node.js", "Apollo GraphQL", "Material UI (MUI)"]
+        "items": ["React, Node.js, Apollo GraphQL, Material UI (MUI)"]
       },
       {
         "title": "Developer Tools & Standards:",
         "items": [
-          "Git",
-          "Jest",
-          "React Testing Library",
-          "WCAG 2.x Acessibility Compliance"
+          "Git, Jest, React Testing Library, WCAG 2.x Acessibility Compliance"
         ]
       },
       {
         "title": "Platforms:",
-        "items": ["Ubuntu", "Windows", "MacOS"]
+        "items": ["Ubuntu, Windows, MacOS"]
       }
     ]
   }

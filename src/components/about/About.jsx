@@ -20,6 +20,18 @@ const About = () => {
         deploying in Agile environments. I enjoy collaborating with teams and
         turning complex technical ideas into simple, user-friendly solutions.
       </p>
+      <p className="about-text">
+        In my free time you can catch me{" "}
+        <a
+          href="https://letterboxd.com/PixelPoncho/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          watching movies
+        </a>
+        , playing a variety of video games, or doing all kinds of arts and
+        crafts.
+      </p>
 
       <div className="role-container">
         {roleEntries.map((role, idx) => (
