@@ -12,7 +12,7 @@
   },
   {
     "title": "Software Development Assistant",
-    "organization": "University of Calgary, Auroral Imaging Group",
+    "organization": "Auroral Imaging Group (UCalgary)",
     "date": "Sep. 2020 - Dec. 2021",
     "bullets": [
       "Modernized aurorax.space by migrating from Python to React with Bootstrap, building interactive data visualizations and full-feature front-end functionality with RESTful API for enhanced performance, usability, and scalability.",

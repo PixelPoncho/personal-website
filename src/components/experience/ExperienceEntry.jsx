@@ -6,6 +6,7 @@ const ExperienceEntry = ({
   organization,
   date,
   bullets = [],
+  subRoles = [],
 }) => {
   return (
     <div className={`${className} experience-container`}>
@@ -15,6 +16,7 @@ const ExperienceEntry = ({
       </div>
       <div className="poppins-regular">{organization}</div>
 
+      {/* Main bullets */}
       {bullets.length > 0 && (
         <ul className="bullet-container">
           {bullets.map((b, i) => (
@@ -27,6 +29,25 @@ const ExperienceEntry = ({
           ))}
         </ul>
       )}
+
+      {/* sub-roles  */}
+      {subRoles.length > 0 &&
+        subRoles.map((section, idx) => (
+          <div key={idx} className="subtitle-section">
+            <p className="subtitle-title">{section.subtitle}</p>
+            {section.subtitleBullets && section.subtitleBullets.length > 0 && (
+              <ul className="bullet-container">
+                {section.subtitleBullets.map((b, i) => (
+                  <li
+                    key={i}
+                    className="bullet"
+                    dangerouslySetInnerHTML={{ __html: b }}
+                  />
+                ))}
+              </ul>
+            )}
+          </div>
+        ))}
     </div>
   );
 };

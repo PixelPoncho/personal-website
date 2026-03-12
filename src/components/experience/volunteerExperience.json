@@ -1,18 +1,36 @@
 [
   {
-    "title": "Various Commissioner Positions and VP Finance",
-    "organization": "Electrical and Software Engineering Students' Society (ZOO)",
+    "title": "Various Positions",
+    "organization": "Electrical and Software Engineering Students' Society",
     "date": "Sep. 2017 - Dec. 2025",
-    "bullets": ["Artistic Comm", "Webmaster"]
+    "subRoles": [
+      {
+        "subtitle": "Webmaster",
+        "subtitleBullets": [
+          "Maintained and enhanced the UI/UX of the Society's website, built with React, to improve accessibility and drive student involvement.",
+          "Oversaw internal web services to ensure reliability and performance.",
+          "Developed comprehensive documentation and a transition guide to support future webmasters and ensure continuity."
+        ]
+      },
+      {
+        "subtitle": "Artistic Commissioner",
+        "subtitleBullets": [
+          "Designed and produce promotional materials, including posters and digital graphics, to support Society initiatives and events.",
+          "Managed the Society's social media and online presence to enhance engagement and outreach.",
+          "Developed branded merchandise such as hoodies, shirts, and patches to strengthen community identity and visibility.",
+          "For the annual Engg Week competition, conceptualized, wrote, directed, and edited a short parody film."
+        ]
+      }
+    ]
   },
   {
-    "title": "2023 Canadian Engineering Leadership Conference Communication Team",
-    "organization": "Canadian Federation of Engineering Students",
+    "title": "Communication Team",
+    "organization": "2023 Canadian Engineering Leadership Conference",
     "date": "May 2021 - Jan. 2023",
     "bullets": [
-      "Lead the development and execution of the Conference's visual brand identity, ensuring consistency across all platforms and materials.",
-      "Collaborate with Conference Co-Chairs and the Canadian Federation of Engineering Students (CFES) to obtain approval for branding assets and ensure alignment with national standards.",
-      "Design and refine key materials including the conference logo, sponsorship package, pre-delegate and delegate packages, website visuals, and promotional collateral.",
+      "Led the development and execution of the Conference's visual brand identity, ensuring consistency across all platforms and materials.",
+      "Collaborated with Conference Co-Chairs and the Canadian Federation of Engineering Students (CFES) to obtain approval for branding assets and ensure alignment with national standards.",
+      "Designed and refined key materials including the conference logo, sponsorship package, pre-delegate and delegate packages, website visuals, and promotional collateral.",
       "Served as an official event photographer, capturing high-quality content for marketing, social media, and post-conference communications."
     ]
   },
@@ -20,6 +38,26 @@
     "title": "Volunteer",
     "organization": "Calgary Comic and Entertainment Expo",
     "date": "Apr. 2017 - Present",
-    "bullets": ["Crew Support Team.", "Media Guest Services Team."]
+    "subRoles": [
+      {
+        "subtitle": "Crew Support Member",
+        "subtitleBullets": [
+          "Assisted with event setup and teardown.",
+          "Managed volunteer check-in and check-out processes to maintain accurate staffing coordination.",
+          "Supported Operations in monitoring and enforcing Expo policies to ensure attendee safety and compliance.",
+          "Supported all other teams as needed, including Guest Services, Artist Alley, and Panel Operations, to ensure smooth event execution and a positive experience for attendees and participants."
+        ]
+      },
+      {
+        "subtitle": "Media Guest Services Member",
+        "subtitleBullets": [
+          "Worked directly with invited celebrity guests, maintaining a high standard of professionalism and discretion.",
+          "Ensured guests had a positive experience while coordinating schedules for panels, photo ops, and autograph sessions.",
+          "Managed cash and point-of-sale transactions for guest merchandise sales, maintaining accuracy and accountability.",
+          "Applied upselling techniques to maximize merchandise revenue while enhancing the attendee experience.",
+          "Acted as a liaison between guests and event staff to facilitate smooth programming and logistics."
+        ]
+      }
+    ]
   }
 ]

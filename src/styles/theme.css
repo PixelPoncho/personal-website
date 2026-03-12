@@ -38,6 +38,12 @@ div.site-body {
   margin: 0 auto;
 }
 
+@media (max-width: 768px) {
+  div.site-body {
+    width: 85%;
+  }
+}
+
 .didact-gothic-regular {
   font-family: "Didact Gothic", sans-serif;
   font-weight: 400;
@@ -150,6 +156,10 @@ div.site-body {
   font-family: "Poppins", sans-serif;
   font-weight: 900;
   font-style: italic;
+}
+
+p {
+  margin: 0;
 }
 
 h1 {

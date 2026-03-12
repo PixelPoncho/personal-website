@@ -1,4 +1,8 @@
-// styles moved to src/styles/components.css
+// Project-defined components
+import RoleCard from "./RoleCard";
+
+// Data
+import roleEntries from "./roleEntries.json";
 
 const About = () => {
   return (
@@ -16,6 +20,18 @@ const About = () => {
         deploying in Agile environments. I enjoy collaborating with teams and
         turning complex technical ideas into simple, user-friendly solutions.
       </p>
+
+      <div className="role-container">
+        {roleEntries.map((role, idx) => (
+          <RoleCard
+            key={idx}
+            icon={role.icon}
+            title={role.title}
+            description={role.description}
+            sections={role.sections}
+          />
+        ))}
+      </div>
     </>
   );
 };
