@@ -81,11 +81,10 @@ header nav a.nav-link:hover {
 .splash-container {
   background-color: var(--color-off-white);
   color: var(--color-blue-purple);
-  height: 90vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 0 4rem;
+  padding: 4rem;
 }
 .splash-text {
   margin: 0 3rem 0 0;
