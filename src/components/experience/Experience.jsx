@@ -30,16 +30,21 @@ const Experience = () => {
         ))}
       </div>
 
-      <a
-        href={resumePdf}
-        target="_blank"
-        rel="noopener noreferrer"
-        aria-label="Resume"
-      >
-        <button className="resume-download" alt="Download resume button">
-          Download My Resume
-        </button>
-      </a>
+      <div className="resume-card">
+        <p className="resume-text">
+          Like what you see? Download my resume to learn more about my
+          experience.
+        </p>
+        <a
+          href={resumePdf}
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Resume"
+          className="resume-button"
+        >
+          <button alt="Download resume button">Download My Resume</button>
+        </a>
+      </div>
     </>
   );
 };

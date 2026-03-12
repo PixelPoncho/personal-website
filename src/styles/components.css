@@ -287,6 +287,24 @@ p.about-text a:hover {
   margin: 0 0 0.75rem;
 }
 
+.resume-card {
+  max-width: 600px;
+  margin: 5.5rem auto 0rem;
+  padding: 2rem;
+  background-color: var(--color-blue-purple-hover);
+  border-radius: 12px;
+  text-align: center;
+}
+
+.resume-card .resume-text {
+  margin-bottom: 1rem;
+}
+
+.resume-button button {
+  padding: 0.75rem 2rem;
+  font-weight: 600;
+}
+
 /* Mobile responsive: reorder experience entry on small screens */
 @media (max-width: 768px) {
   .experience-container {
