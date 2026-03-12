@@ -38,7 +38,10 @@ const LandingPage = () => {
               idea, or just want to chat, feel free to reach out. Let's connect
               and create something amazing together.
             </p>
-            <a href="mailto:ines@rosito.ca" className="contact-button">
+            <a
+              href="mailto:ines@rosito.ca"
+              className="poppins-medium contact-button"
+            >
               <button>Contact Me</button>
             </a>
           </div>

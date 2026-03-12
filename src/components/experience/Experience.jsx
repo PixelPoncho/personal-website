@@ -32,18 +32,28 @@ const Experience = () => {
 
       <div className="resume-card">
         <p className="resume-text">
-          Like what you see? Download my resume to learn more about my
-          experience.
+          Like what you see? Check out my LinkedIn to learn more about my
+          experience or download my resume.
         </p>
-        <a
-          href={resumePdf}
-          target="_blank"
-          rel="noopener noreferrer"
-          aria-label="Resume"
-          className="resume-button"
-        >
-          <button alt="Download resume button">Download My Resume</button>
-        </a>
+        <div className="poppins-medium resume-buttons-container">
+          <a
+            href="https://linkedin.com/in/irosito"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="LinkedIn"
+          >
+            <button alt="Linkedin Redirect button">Visit My Linkedin</button>
+          </a>
+          <a
+            href={resumePdf}
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Resume"
+            className="resume-button"
+          >
+            <button alt="Download resume button">Download My Resume</button>
+          </a>
+        </div>
       </div>
     </>
   );
