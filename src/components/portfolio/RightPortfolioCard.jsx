@@ -9,30 +9,28 @@ const RightPortfolioCard = ({
   figmaLink,
   githubLink,
   image,
-}) => {
-  return (
-    <div className="portfolio-entry-right-container">
-      <div
-        className="card portfolio-entry-left"
-        style={{ backgroundImage: `url(${image})`, objectFit: "stretch" }}
-      />
+}) => (
+  <div className="portfolio-entry-right-container">
+    <div
+      className="card portfolio-entry-left"
+      style={{ backgroundImage: `url(${image})`, objectFit: "stretch" }}
+    />
 
-      <div className="portfolio-entry-right">
-        <div className="card portfolio-entry-card">
-          <h3 className="poppins-semibold portfolio-entry-title">{title}</h3>
-          <p className="portfolio-entry-subtitle">{subtitle}</p>
+    <div className="portfolio-entry-right">
+      <div className="card portfolio-entry-card">
+        <h3 className="poppins-semibold portfolio-entry-title">{title}</h3>
+        <p className="portfolio-entry-subtitle">{subtitle}</p>
 
-          <ul className="portfolio-entry-tech-list">{techItems}</ul>
-        </div>
-
-        <IconButtons
-          projectLink={projectLink}
-          figmaLink={figmaLink}
-          githubLink={githubLink}
-        />
+        <ul className="portfolio-entry-tech-list">{techItems}</ul>
       </div>
+
+      <IconButtons
+        projectLink={projectLink}
+        figmaLink={figmaLink}
+        githubLink={githubLink}
+      />
     </div>
-  );
-};
+  </div>
+);
 
 export default RightPortfolioCard;

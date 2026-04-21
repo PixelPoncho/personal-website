@@ -56,7 +56,6 @@ const LandingPage = () => {
       </main>
 
       <Footer />
-
       <ScrollToTopButton />
     </>
   );
