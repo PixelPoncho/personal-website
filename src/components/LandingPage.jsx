@@ -10,55 +10,53 @@ import Footer from "./footer/Footer";
 
 import ScrollToTopButton from "./button/ScrollToTopButton";
 
-const LandingPage = () => {
-  return (
-    <>
-      <Navbar />
-      <SplashImage />
+const LandingPage = () => (
+  <>
+    <Navbar />
+    <SplashImage />
 
-      <main className="site-body">
-        <section>
-          <Headers title="About Me" />
-          <About />
-        </section>
+    <main className="site-body">
+      <section>
+        <Headers title="About Me" />
+        <About />
+      </section>
 
-        <section>
-          <Headers title="Experience" />
-          <Experience />
-        </section>
+      <section>
+        <Headers title="Experience" />
+        <Experience />
+      </section>
 
-        <section>
-          <Headers title="Portfolio" />
-          <Portfolio />
-        </section>
+      <section>
+        <Headers title="Portfolio" />
+        <Portfolio />
+      </section>
 
-        <section>
-          <Headers title="Contact" />
-          <div className="contact-card">
-            <p className="contact-text">
-              I'd love to hear from you! Whether you have a question, a project
-              idea, or just want to chat, feel free to reach out. Let's connect
-              and create something amazing together.
-            </p>
-            <a
-              href="mailto:ines@rosito.ca"
-              className="poppins-medium contact-button"
-            >
-              <button>Contact Me</button>
-            </a>
-          </div>
+      <section>
+        <Headers title="Contact" />
+        <div className="contact-card">
+          <p className="contact-text">
+            I'd love to hear from you! Whether you have a question, a project
+            idea, or just want to chat, feel free to reach out. Let's connect
+            and create something amazing together.
+          </p>
+          <a
+            href="mailto:ines@rosito.ca"
+            className="poppins-medium contact-button"
+          >
+            <button>Contact Me</button>
+          </a>
+        </div>
 
-          {/* 
+        {/* 
             Contact form awaiting full implementation
             <Contact /> 
           */}
-        </section>
-      </main>
+      </section>
+    </main>
 
-      <Footer />
-      <ScrollToTopButton />
-    </>
-  );
-};
+    <Footer />
+    <ScrollToTopButton />
+  </>
+);
 
 export default LandingPage;
