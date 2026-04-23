@@ -9,6 +9,7 @@ import rositoMockupPreview from "../../assets/mockups/rositoPreview.png";
 // Additional Portfolio imports
 import celcBranding from "../../assets/pdf/celcBrandingGuide.pdf";
 import zooMarketing from "../../assets/mockups/zooMarketing.png";
+import iconSeries from "../../assets/mockups/iconSeries.png";
 
 const mainPortfolioEntries = [
   {
@@ -62,6 +63,13 @@ export const additionalPortfolioEntries = [
       "Just a segment of the all the marketing posts created for ZOO. More can be found at zooengg.ca.",
     buttonText: "View Posts",
     link: zooMarketing,
+  },
+  {
+    title: "Icon Series",
+    description:
+      "A couple of icons created at the request of friends for their profiles.",
+    buttonText: "View Images",
+    link: iconSeries,
   },
 ];
 
